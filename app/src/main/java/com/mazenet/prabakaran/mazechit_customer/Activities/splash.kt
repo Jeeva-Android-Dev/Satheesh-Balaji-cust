@@ -8,6 +8,7 @@ import com.mazenet.prabakaran.mazechit_customer.R
 import kotlinx.android.synthetic.main.activity_splash.*
 
 class splash : BaseActivity() {
+    //splash activty
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
