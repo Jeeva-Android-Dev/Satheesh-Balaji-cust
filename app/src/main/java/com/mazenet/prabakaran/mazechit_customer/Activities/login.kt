@@ -159,7 +159,7 @@ class login : BaseActivity() {
                                         response.body()!!.getCustomerPrimaryId().toString()
                                     )
                                     setPrefsString(Constants.CUST_NAME, response.body()!!.getCustomerName().toString())
-                                    //mou
+                                    //mounbika
                                     setPrefsString(Constants.TENANT_ID, response.body()!!.getTenantId().toString())
                                     setPrefsString(Constants.TENANT_NAME, response.body()!!.getTenantName().toString())
                                     setPrefsString(Constants.TENANT_ADD1, response.body()!!.getTenantAddress1().toString())
