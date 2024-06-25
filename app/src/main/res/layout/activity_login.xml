@@ -75,7 +75,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pb_login"
         app:layout_constraintVertical_bias="0.539"
-        app:srcCompat="@drawable/sateeshbalaji" />
+        app:srcCompat="@drawable/thiru" />
 
     <android.support.constraint.ConstraintLayout
             android:layout_width="0dp"

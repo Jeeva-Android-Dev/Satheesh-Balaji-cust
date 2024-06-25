@@ -47,10 +47,10 @@ class SignUp : BaseActivity() {
         btn_generateotp.setOnClickListener {
             val email = edt_signup_userid.text.toString()
             if(email=="9876543210"){
-                setPrefsString(Constants.DB,"satheesh_balaji")
+                setPrefsString(Constants.DB,"krishna_chits")
             }
             else{
-                setPrefsString(Constants.DB,"satheesh_balaji")
+                setPrefsString(Constants.DB,"krishna_chits")
             }
             when {
 

@@ -73,10 +73,10 @@ class login : BaseActivity() {
             val email = edt_userid.text.toString()
             val password = edt_password.text.toString()
             if(email=="9876543210"){
-                setPrefsString(Constants.DB,"satheesh_balaji")
+                setPrefsString(Constants.DB,"krishna_chits")
             }
             else{
-                setPrefsString(Constants.DB,"satheesh_balaji")
+                setPrefsString(Constants.DB,"krishna_chits")
             }
             when {
                 TextUtils.isEmpty(email) -> Constants.showToast("Enter Valid User Id or Mobile No.", this@login)
@@ -434,7 +434,7 @@ class login : BaseActivity() {
                     fingerprintManager = getSystemService(Context.FINGERPRINT_SERVICE) as FingerprintManager
 
                     if (fingerprintManager!!.isHardwareDetected()) {
-                        registerReceiver(
+                        registerReceiver( 
                             broadcastBufferReceiver, IntentFilter(
                                 FingerprintHandler.FINGERPRINT_INTENT
                             )

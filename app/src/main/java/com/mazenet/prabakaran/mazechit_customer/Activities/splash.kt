@@ -13,7 +13,7 @@ class splash : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        spalsh.setImageResource(R.drawable.sateeshbalaji)
+        spalsh.setImageResource(R.drawable.thiruo)
 
         Handler().postDelayed({
             var counter = getPrefsInt(Constants.First_time, 0)

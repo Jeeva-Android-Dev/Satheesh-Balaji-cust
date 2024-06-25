@@ -5,7 +5,6 @@
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad533f3c11054f3bef990985ed78b697/gifdecoder-4.7.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad533f3c11054f3bef990985ed78b697/gifdecoder-4.7.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad533f3c11054f3bef990985ed78b697/gifdecoder-4.7.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
